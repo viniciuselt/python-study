@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python - Algoritmos</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../img/logo.png" alt="logo" width="400px" class="logo"></a>
+    </header>
+<br>
+<nav>
+  <ul>
+    <li><a href="../index.html">Início</a></li>
+    <li><a href="algoritmos.html">Algoritmos Seq.</a></li>
+    <li><a href="algoritmos2.html">Algoritmos Iter.</a></li>
+    <li><a href="funcoes.html">Funções</a></li>
+    <li><a href="tlds.html">TLDS</a></li>
+  </ul>
+</nav>
+    <main>
+        <div class="content">
+            <h1 id="matrix-text">Algoritmos sequenciais. Dados, Variáveis e Comandos de Entrada e Saída</h1>
+            <div id="txt">
+            <p>Os algoritmos sequenciais são uma sequência de instruções executadas em ordem para realizar uma determinada tarefa. Em Python, podemos escrever algoritmos sequenciais que manipulam dados e variáveis. Os dados podem ser de vários tipos em Python, incluindo números, strings, listas, dicionários e muito mais. As variáveis são usadas para armazenar dados e podem ser declaradas e atribuídas um valor em Python. Os comandos de entrada e saída em Python são usados para interagir com o usuário. O comando "input" é usado para receber dados do usuário, enquanto o comando "print" é usado para exibir dados na tela.</p>
+            <p>Um exemplo de algoritmo sequencial em Python seria um programa que calcula a área de um círculo. Ele pode receber o valor do raio do usuário usando o comando "input", calcular a área usando a fórmula apropriada e exibir o resultado usando o comando "print". Em resumo, os algoritmos sequenciais em Python usam dados e variáveis para executar tarefas específicas e usam comandos de entrada e saída para interagir com o usuário.</p>
+            <br>
+            <div class="table-container">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Operador</th>
+                      <th>Descrição</th>
+                      <th>Exemplo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>+</td>
+                      <td>Adição</td>
+                      <td>x + y</td>
+                    </tr>
+                    <tr>
+                      <td>-</td>
+                      <td>Subtração</td>
+                      <td>x - y</td>
+                    </tr>
+                    <tr>
+                      <td>*</td>
+                      <td>Multiplicação</td>
+                      <td>x * y</td>
+                    </tr>
+                    <tr>
+                      <td>/</td>
+                      <td>Divisão</td>
+                      <td>x / y</td>
+                    </tr>
+                    <tr>
+                      <td>//</td>
+                      <td>Divisão inteira</td>
+                      <td>x // y</td>
+                    </tr>
+                    <tr>
+                      <td>%</td>
+                      <td>Módulo (resto da divisão)</td>
+                      <td>x % y</td>
+                    </tr>
+                    <tr>
+                      <td>**</td>
+                      <td>Exponenciação</td>
+                      <td>x ** y</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p>Os cálculos de expressões aritméticas funcionam da mesma maneira que na matemática tradicional. Ou seja, a ordem de precedência dos operadores deve ser respeitada da mesma maneira que você respeita ao fazer um cálculo na ponta do lápis.</p>
+            </div>
+            <h2>VARIÁVEIS, DADOS E SEUS TIPOS</h2>
+            <div id="txt">
+                <p style="font-weight: 400;">De acordo com nossa bibliografia, citamos tr&ecirc;s tipos de vari&aacute;veis denominados<strong><em>&nbsp;tipos primitivos de dados</em></strong>:</p>
+                <ul style="font-weight: 400;">
+                <li>Num&eacute;rico &ndash; &eacute; um tipo que serve para representar qualquer n&uacute;mero, sejam valores inteiros, ou valores com casas decimais (tamb&eacute;m chamados de ponto flutuante). Uma vari&aacute;vel deve ser declarada como num&eacute;rica quando opera&ccedil;&otilde;es aritm&eacute;ticas precisarem ser realizadas com elas;</li>
+                <li>Caractere &ndash; &eacute; um tipo que serve para representar letras, caracteres especiais, acentua&ccedil;&otilde;es, e at&eacute; mesmo podem ser utilizados para n&uacute;meros, quando estes n&atilde;o servirem para opera&ccedil;&otilde;es aritm&eacute;ticas, por exemplo;</li>
+                <li>Literal/booleano &ndash; &eacute; um tipo que serve para representar somente dois estados l&oacute;gicos: verdadeiro ou falso (1 ou 0).</li>
+                </ul>
+                <p>No c&oacute;digo a seguir estamos criando duas vari&aacute;veis (n&atilde;o vamos tratar do&nbsp;<em>tipo</em>&nbsp;ainda). A primeira tem nome&nbsp;<em>disciplina</em>, e armazena o nome da nossa disciplina. A outra se chama&nbsp;<em>nota</em>&nbsp;e armazena uma nota tirada nessa disciplina.</p>
+                </div>
+            <div class="cod">
+                <div><span style="color: #ecf0f1;">nota&nbsp;=</span>&nbsp;<span style="color: #3598db;">6.5</span></div>
+                <div><span style="color: #ecf0f1;">disciplina&nbsp;=</span>&nbsp;<span style="color: #e67e23;">'L&oacute;gica&nbsp;de&nbsp;programa&ccedil;&atilde;o&nbsp;e&nbsp;algoritmos'</span></div>
+                <br />
+                <div><span style="color: #f1c40f;">print</span><span style="color: #ecf0f1;">(nota)</span></div>
+                <div><span style="color: #f1c40f;">print</span><span style="color: #ecf0f1;">(disciplina)</span></div>
+                <br />
+                <div><span style="color: #f1c40f;">print</span><span style="color: #ecf0f1;">(</span><span style="color: #e67e23;">'Disciplina:'</span><span style="color: #ecf0f1;">,&nbsp;disciplina,</span>&nbsp;<span style="color: #e67e23;">'A&nbsp;nota&nbsp;&eacute;:&nbsp;'</span><span style="color: #ecf0f1;">,&nbsp;nota)</span></div>
+            </div>
+            <div id="txt">
+            <p>Observe que o sinal de igual é o que indica que o conteúdo colocado à direita será armazenado na variável colocada à esquerda. Em programação, o sinal de igual significa atribuição, ou seja, o valor é atribuído à variável.</p>
+            </div>
+            <h2>OPERADORES LÓGICOS</h2>
+            <div id="table-container2">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operação</th>
+                        <th>Python</th>
+                        <th>Pseudocódigo</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Igualdade</td>
+                        <td>==</td>
+                        <td>=</td>
+                        <td>Compara se dois valores são iguais</td>
+                    </tr>
+                    <tr>
+                        <td>Maior que</td>
+                        <td>&gt;</td>
+                        <td>&gt;</td>
+                        <td>Compara se um valor é maior do que outro</td>
+                    </tr>
+                    <tr>
+                        <td>Menor que</td>
+                        <td>&lt;</td>
+                        <td>&lt;</td>
+                        <td>Compara se um valor é menor do que outro</td>
+                    </tr>
+                    <tr>
+                        <td>Maior ou igual que</td>
+                        <td>&gt;=</td>
+                        <td>&gt;=</td>
+                        <td>Compara se um valor é maior ou igual ao outro</td>
+                    </tr>
+                    <tr>
+                        <td>Menor ou igual que</td>
+                        <td>&lt;=</td>
+                        <td>&lt;=</td>
+                        <td>Compara se um valor é menor ou igual ao outro</td>
+                    </tr>
+                    <tr>
+                        <td>Diferente</td>
+                        <td>!=</td>
+                        <td>&lt;&gt;</td>
+                        <td>Compara se dois valores são diferentes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h3>Igualdade</h3>
+            <div class="cod">
+                <div>
+                    <div><span style="color: #ecf0f1;">a&nbsp;=</span>&nbsp;<span style="color: #3598db;">1</span></div>
+                    <div><span style="color: #ecf0f1;">b&nbsp;=</span>&nbsp;<span style="color: #3598db;">4</span></div>
+                    <div><span style="color: #ecf0f1;">resposta&nbsp;=&nbsp;a&nbsp;==&nbsp;b</span>&nbsp;</div>
+                    <div><span style="color: #f1c40f;">print</span><span style="color: #ecf0f1;">(</span><span style="color: #e67e23;">'Resposta&nbsp;um:'</span><span style="color: #ecf0f1;">,resposta)</span></div>
+                    <br />
+                    <div><span style="color: #ecf0f1;">c&nbsp;=</span>&nbsp;<span style="color: #3598db;">5</span></div>
+                    <div><span style="color: #ecf0f1;">d&nbsp;=</span>&nbsp;<span style="color: #3598db;">5</span></div>
+                    <div><span style="color: #ecf0f1;">resposta01&nbsp;=&nbsp;c&nbsp;==&nbsp;d</span></div>
+                    <div><span style="color: #f1c40f;">print</span><span style="color: #ecf0f1;">(</span><span style="color: #e67e23;">'Resposta&nbsp;dois:'</span><span style="color: #ecf0f1;">,resposta01)</span></div>
+                    </div>
+        </div>
+        <div class="resp">
+        <p><b>Resposta um:</b> <span style="color: #e03e2d;">False </span></p>
+        <p><b>Resposta dois:</b> <span style="color: #169179;">True</span></p>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+    <footer>
+        <p>© 2023 information about python: <a href="https://www.python.org/" target="_blank">official site</a></p>
+    </footer>
+</body>
+</html>
